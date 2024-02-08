@@ -1,17 +1,11 @@
 # Navi
 Natus vincere, *"Nacidos para vencer"*
 Grupo conformado por cinco integrantes que comparten el gusto hacia la ingeniería de sistemas; nuestro enfoque es la creatividad, compromiso y el trabajo en equipo. 
-
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+<img src="imgs/oscar.jpeg" width="300" height="300" title="oscar">  |  Estudiante de ingeniería de sistemas, fusiona su pasión por la tecnología con la creatividad. Comprometido con el desarrollo de soluciones innovadoras, cultiva valores como la disciplina y el compromiso. Apasionado por la música, encuentra en ella un equilibrio que enriquece su vida personal y profesional.
 ## Integrantes
 - **MONGUI PIÑEROS OSCAR MAURICIO**
-  <div id="content">
-  <div style="float:left">
-    <img src="imgs/oscar.jpeg" width="450" height="300" title="oscar">
-  </div>
-  <div style="float:left">
-    <p>Estudiante de ingeniería de sistemas, fusiona su pasión por la tecnología con la creatividad. Comprometido con el desarrollo de soluciones innovadoras, cultiva valores como la disciplina y el compromiso. Apasionado por la música, encuentra en ella un equilibrio que enriquece su vida personal y profesional.</p>
-  </div>
-</div>
   
 - **MONSALVE AYALA MILTON ANDRES**
 
