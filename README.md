@@ -4,8 +4,8 @@ Grupo conformado por cinco integrantes que comparten el gusto hacia la ingenier�
 
 ## Integrantes
 - **MONGUI PIÑEROS OSCAR MAURICIO**
-  <div><img src="imgs/oscar.jpeg" width="425" title="oscar" align="left">
-  <p align="left">Estudiante de ingeniería de sistemas, fusiona su pasión por la tecnología con la creatividad. Comprometido con el desarrollo de soluciones innovadoras, cultiva valores como la disciplina y el compromiso. Apasionado por la música, encuentra en ella un equilibrio que enriquece su vida personal y profesional.</p></div>
+  <img src="imgs/oscar.jpeg" width="425" title="oscar" align="left">
+  <p>Estudiante de ingeniería de sistemas, fusiona su pasión por la tecnología con la creatividad. Comprometido con el desarrollo de soluciones innovadoras, cultiva valores como la disciplina y el compromiso. Apasionado por la música, encuentra en ella un equilibrio que enriquece su vida personal y profesional.</p>
    
 - **MONSALVE AYALA MILTON ANDRES**
 <img src="imgs/oscar.jpeg" width="425" title="oscar" align="left">
