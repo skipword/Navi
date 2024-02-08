@@ -4,7 +4,6 @@ Grupo conformado por cinco integrantes que comparten el gusto hacia la ingenier�
       Imagen      |  Integrante
 -------------------------|-------------------------
 <img src="imgs/oscar.jpeg"  title="oscar">  |  **MONGUI PIÑEROS OSCAR MAURICIO**
-
 Estudiante de ingeniería de sistemas, fusiona su pasión por la tecnología con la creatividad. Comprometido con el desarrollo de soluciones innovadoras, cultiva valores como la disciplina y el compromiso. Apasionado por la música, encuentra en ella un equilibrio que enriquece su vida personal y profesional.
 ## Integrantes
 - **MONGUI PIÑEROS OSCAR MAURICIO**
