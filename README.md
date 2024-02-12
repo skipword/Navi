@@ -15,7 +15,7 @@ Grupo conformado por cinco integrantes que comparten el gusto hacia la ingenier�
 
 - **ORDUZ CARVAJAL CRISTIAN VLADIMIR**
 
-  <img src="imgs/cristian vladimir.jpeg" width="425" height="425" title="vladimir">
+  <img src="imgs/vladimir.jpeg" width="425" height="425" title="vladimir">
   
 - **ORDUZ PICON CHRISTIAN ISNARDO**
 
@@ -23,6 +23,6 @@ Grupo conformado por cinco integrantes que comparten el gusto hacia la ingenier�
   
 - **PARRA ARIZA ANDREA JULIANA**
 
-<img src="imgs/andrea.jpeg" width="425" height="425" title="andrea">
+<img src="imgs/andreaP.jpeg" width="425" height="425" title="andrea">
 <p>Actualmente en séptimo semestre, se distingue por la responsabilidad, compromiso y consistencia que aplica en cada tarea académica, siempre con el objetivo de enriquecer sus conocimientos y habilidades. En su tiempo libre se centra en la búsqueda constante de nuevas formas de expresión y creación, ya sea a través de la programación, la lectura o la experimentación con diferentes medios artísticos; competencias que busca aplicar en su trayectoría académica para potenciar su desarrollo profesional e integral y contribuir significativamente en los proyectos que se involucre.</p>
   
