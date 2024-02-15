@@ -30,7 +30,7 @@ A la hora de modelarla se usaron dos compuertas NAND; de esta manera, su primera
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
 
-<img src="https://www.build-electronic-circuits.com/wp-content/uploads/2022/09/Logic-symbol-AND-gate-text.png">
+<img width="300" src="https://www.build-electronic-circuits.com/wp-content/uploads/2022/09/Logic-symbol-AND-gate-text.png">
 
 
 ### Or
@@ -42,7 +42,7 @@ Para la compuerta OR se distingue en que sus salidas bajas (0) será en cuyo mom
 | 1 | 0 | 1 |
 | 1 | 1 | 1 |
 
-<img src="https://mielectronicafacil.com/wp-content/uploads/2020/08/compuerta-logica-or-simbolo.jpg">
+<img width="300" src="https://mielectronicafacil.com/wp-content/uploads/2020/08/compuerta-logica-or-simbolo.jpg">
 
 ## Xor
 La compuerta Xor genera una salida alta (1) siempre que sus 2 entradas son diferentes, en caso de tener las 2 entradas iguales su salida es baja(0).
@@ -54,7 +54,7 @@ La compuerta Xor genera una salida alta (1) siempre que sus 2 entradas son difer
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
 
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLtW-ly6W_g7oWNnJ2Qyfk1W7IwrFMiEkWgucB2KwvIVHuQ9eeOvg4JXY3_z43O0lL4t3Ah5RvrFZ3QI7zPdD5biOKUSZ3i84Hu9qKG6qmusPJEc0trI0bnQ13KptAPaV24uj-4W1z/s1600/circuito-combinacional.gif">
+<img width="300" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLtW-ly6W_g7oWNnJ2Qyfk1W7IwrFMiEkWgucB2KwvIVHuQ9eeOvg4JXY3_z43O0lL4t3Ah5RvrFZ3QI7zPdD5biOKUSZ3i84Hu9qKG6qmusPJEc0trI0bnQ13KptAPaV24uj-4W1z/s1600/circuito-combinacional.gif">
 
 ### Mux
 
@@ -67,7 +67,7 @@ Es un componente digital que toma una entrada y la dirige hacia una de sus dos s
 |   0   |   1   |   0   |   0   |
 |   1   |   0   |   1   |   0   |
 |   1   |   1   |   0   |   1   |
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Demultiplexer_Example01.svg/525px-Demultiplexer_Example01.svg.png">
+<img width="300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Demultiplexer_Example01.svg/525px-Demultiplexer_Example01.svg.png">
 ### Not16
 
 ### And16
@@ -87,7 +87,7 @@ Es una compuerta lógica que toma ocho entradas y produce una salida. La salida 
 |  00000001  |  1  |
 |  00100110  |  1  |
 
-<img src="https://nand2tetris-hdl.github.io/img/or8.png">
+<img width="300" src="https://nand2tetris-hdl.github.io/img/or8.png">
 
 ### Mux4Way16
 
@@ -96,7 +96,7 @@ Es una compuerta lógica que toma ocho entradas y produce una salida. La salida 
 ### DMux4Way
 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Demultiplexer_Example01.svg/525px-Demultiplexer_Example01.svg.png">
+<img width="300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Demultiplexer_Example01.svg/525px-Demultiplexer_Example01.svg.png">
 
 
 ### DMux8Way
