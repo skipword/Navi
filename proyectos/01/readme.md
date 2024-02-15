@@ -18,7 +18,14 @@ La base con la que se construirán los demás bloques. Su funcionamiento se resu
 
 ### Or
 Para la compuerta OR se distingue en que sus salidas bajas (0) será en cuyo momento ambas entradas sean 0, por lo tanto en el momento donde cualquier entrada sea (1) el resultado de la compuerta OR será alto (1).
+| A  | B | SALIDA |
+|----|:--:|------:|
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 1 |
 
+<img src="imgs/compuertas/or.png">
 ### Xor
 
 ### Mux
