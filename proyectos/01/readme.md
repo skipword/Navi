@@ -47,7 +47,8 @@ La compuerta Xor genera una salida alta (1) siempre que sus 2 entradas son difer
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
 
-<img src="https://mielectronicafacil.com/wp-content/uploads/2020/08/compuerta-logica-or-simbolo.jpg">
+<img src="![image](https://github.com/skipword/Navi/assets/159461539/cf539071-c7ac-4689-8320-97a889f156d8)
+">
 
 ### Mux
 
