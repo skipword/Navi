@@ -95,3 +95,10 @@ Es una compuerta lógica que toma ocho entradas y produce una salida. La salida 
 ### DMux4Way
 
 ### DMux8Way
+
+## Preguntas adicionales:
+1. ¿Que consideraciones importantes debe tener en cuenta para trabajar con Nand2Tetris?
+
+Para trabajar con Nand2Tetris, es fundamental comprender su objetivo educativo, tener habilidades de programación, seguir el material del curso para guiar el progreso, dividir el trabajo en etapas manejables, estar dispuesto a experimentar y ser creativo en el proceso de realizacion de el trabajo.
+
+
