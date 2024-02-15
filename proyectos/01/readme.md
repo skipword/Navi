@@ -82,9 +82,15 @@ Es un componente digital que toma una entrada y la dirige hacia una de sus dos s
 
 ### And16
 Para realizar este proceso lógico se utilizó la compuerta And ya explicada pero se replica el proceso 16 veces para obtenerse el And16
+
 ### Or16
 Este proceso logico se realiza de fonrma similar a la compuerta Or explicada anteriormente, pero acepta 16 bits en cada una de sus entradas, es decir recibe 16 "a" y 16 "b" obteniendo 16 salidas correspondientes a cada par de entradas 
+
 ### Mux16
+Una compuerta Mux16 es un tipo específico de compuerta multiplexora que tiene 16 entradas de datos y una salida. Permite seleccionar una de las 16 entradas para dirigir su valor a la salida, controlando la operación mediante señales de selección. Estas compuertas Mux16 son comúnmente utilizadas en el diseño de circuitos digitales donde se requiere la selección de datos provenientes de múltiples fuentes para ser procesados o transmitidos a una salida específica. Son componentes fundamentales en el diseño de sistemas digitales complejos. 
+*Imagen de un multiplexor de 32 canales usando dos multiplexores de 16 canales*
+
+<img width="300" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.GFU5VEJj6r_mrhcXtp9P0AHaGj%26pid%3DApi&f=1&ipt=ed03fdabd2edc808c57e6d4e11e1e8456e2a5eb8a7feca091cb8ae7dcc760387&ipo=images">
 
 ### Or8Way
 Es una compuerta lógica que toma ocho entradas y produce una salida. La salida es 1 si al menos una de las entradas es 1, y es 0 si todas las entradas son 0. Esencialmente, realiza la operación OR en todas las entradas para determinar la salida.
@@ -110,6 +116,7 @@ Es una compuerta lógica que toma ocho entradas y produce una salida. La salida 
 
 
 ### DMux8Way
+Dmux8way significa "demultiplexor de 8 vías". Es un dispositivo digital que toma una única entrada y la dirige a una de las ocho salidas posibles, según una señal de control. Básicamente, permite seleccionar una de las ocho salidas para enviar la señal de entrada. Este tipo de componente es útil en el diseño de circuitos digitales donde se necesita distribuir una señal de entrada a múltiples destinos de manera selectiva. Los demultiplexores de este tipo son comúnmente utilizados en aplicaciones de procesamiento y enrutamiento de datos en sistemas digitales.
 
 ## Preguntas adicionales:
 1. ¿Que consideraciones importantes debe tener en cuenta para trabajar con Nand2Tetris?
