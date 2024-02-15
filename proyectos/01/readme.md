@@ -94,6 +94,10 @@ Es una compuerta lógica que toma ocho entradas y produce una salida. La salida 
 
 ### DMux4Way
 
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Demultiplexer_Example01.svg/525px-Demultiplexer_Example01.svg.png">
+
+
 ### DMux8Way
 
 ## Preguntas adicionales:
