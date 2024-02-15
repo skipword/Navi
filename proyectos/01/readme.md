@@ -57,6 +57,16 @@ La compuerta Xor genera una salida alta (1) siempre que sus 2 entradas son difer
 <img width="300" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLtW-ly6W_g7oWNnJ2Qyfk1W7IwrFMiEkWgucB2KwvIVHuQ9eeOvg4JXY3_z43O0lL4t3Ah5RvrFZ3QI7zPdD5biOKUSZ3i84Hu9qKG6qmusPJEc0trI0bnQ13KptAPaV24uj-4W1z/s1600/circuito-combinacional.gif">
 
 ### Mux
+Una compuerta multiplexora (MUX) es un dispositivo digital que se utiliza para seleccionar una de varias entradas de datos y transmitirla a una única salida. Funciona como un interruptor que puede dirigir la señal de entrada a una salida específica, según la configuración de control. Las compuertas MUX son componentes fundamentales en el diseño de circuitos digitales y se utilizan en una amplia variedad de aplicaciones, incluyendo en la construcción de procesadores, sistemas de comunicación y equipos de redes.
+
+| A  | B | SALIDA |
+|----|:--:|------:|
+| 0 | 0 | I0 |
+| 0 | 1 | I1 |
+| 1 | 0 | I2 |
+| 1 | 1 | I3|
+
+<img width="300" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.electricaltechnology.org%2Fwp-content%2Fuploads%2F2018%2F03%2F4-to-1-multiplexer-implementation-using-logic-gates.png&f=1&nofb=1&ipt=809591b9767c3ee9cc4f0e0b5f1b39beb69571da15a7b2d2eef0b1f5ed14caf0&ipo=images">
 
 ### DMux
 Es un componente digital que toma una entrada y la dirige hacia una de sus dos salidas dependiendo de una señal de selección. Si la señal de selección está en estado bajo, la entrada se dirige a una de las salidas, mientras que si la señal de selección está en estado alto, la entrada se dirige a la otra salida. Esencialmente, el DMux divide una señal de entrada en dos salidas distintas basadas en una señal de control.
