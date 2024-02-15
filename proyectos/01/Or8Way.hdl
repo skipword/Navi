@@ -1,0 +1,18 @@
+CHIP Or8Way {
+    // Declaración de entradas y salida
+    IN in[8];   // Array de 8 entradas
+    OUT out;    // Salida única
+    PARTS:
+    // Definición de las partes internas del Or8Way
+    // Se utiliza una serie de compuertas OR para calcular la salida OR de todas las entradas
+    // Primera compuerta OR toma in[0] y in[1] como entradas
+	Or(a=in[0], b=in[1], out=out1);
+	// La salida de la primera compuerta OR se usa junto con in[2] para calcular otra salida
+	Or(a=out1, b=in[2], out=out2);
+	// Este patrón continúa hasta la séptima compuerta OR
+	Or(a=out2, b=in[3], out=out3);
+	Or(a=out3, b=in[4], out=out4);
+	Or(a=out4, b=in[5], out=out5);
+	Or(a=out5, b=in[6], out=out6);
+	Or(a=out6, b=in[7], out=out); // La última salida se conecta a la salida del chip
+}
