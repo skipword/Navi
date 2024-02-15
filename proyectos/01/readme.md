@@ -56,7 +56,7 @@ La compuerta Xor genera una salida alta (1) siempre que sus 2 entradas son difer
 ### Not16
 
 ### And16
-
+Para realizar este proceso lógico se utilizó la compuerta And ya explicada pero se replica el proceso 16 veces para obtenerse el And16
 ### Or16
 
 ### Mux16
