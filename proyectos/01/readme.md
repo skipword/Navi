@@ -25,7 +25,7 @@ Para la compuerta OR se distingue en que sus salidas bajas (0) será en cuyo mom
 | 1 | 0 | 1 |
 | 1 | 1 | 1 |
 
-<img src="https://github.com/skipword/Navi/blob/main/imgs/compuertas/or.jpg">
+<img src="https://mielectronicafacil.com/wp-content/uploads/2020/08/compuerta-logica-or-simbolo.jpg">
 
 ## Xor
 La compuerta Xor genera una salida alta (1) siempre que sus 2 entradas son diferentes.
