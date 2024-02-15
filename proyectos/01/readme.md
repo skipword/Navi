@@ -61,10 +61,10 @@ Una compuerta multiplexora (MUX) es un dispositivo digital que se utiliza para s
 
 | A  | B | SALIDA |
 |----|:--:|------:|
-| 0 | 0 | I0 |
-| 0 | 1 | I1 |
-| 1 | 0 | I2 |
-| 1 | 1 | I3|
+| 0 | 0 | D0 |
+| 0 | 1 | D1 |
+| 1 | 0 | D2 |
+| 1 | 1 | D3|
 
 <img width="300" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.electricaltechnology.org%2Fwp-content%2Fuploads%2F2018%2F03%2F4-to-1-multiplexer-implementation-using-logic-gates.png&f=1&nofb=1&ipt=809591b9767c3ee9cc4f0e0b5f1b39beb69571da15a7b2d2eef0b1f5ed14caf0&ipo=images">
 
@@ -108,7 +108,16 @@ Es una compuerta lógica que toma ocho entradas y produce una salida. La salida 
 ### Mux4Way16
 Un multiplexor m-vías de n-bits selecciona uno de las m buses de entrada de n bits y lo envía hacia un único bus de salida de n bits, es decir, usa la salida del anterior como la entrada del siguiente, en este caso, se trata de un multiplexor de 4 vías y 16 bits.
 
-<img width="300" src="https://576563040-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61xaDLg3WD0A24S5G3rN%2Fuploads%2FYT9S578HVZBNXaqojRMC%2Fimg.png?alt=media&token=ffd428f4-bc9a-41e4-a3f5-38e7e72bfecc"> 
+
+| sel[1]  | sel[0] | SALIDA |
+|----|:--:|------:|
+| 0 | 0 | a |
+| 0 | 1 | b |
+| 1 | 0 | c |
+| 1 | 1 | d|
+
+
+<img width="400" src="https://576563040-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61xaDLg3WD0A24S5G3rN%2Fuploads%2FYT9S578HVZBNXaqojRMC%2Fimg.png?alt=media&token=ffd428f4-bc9a-41e4-a3f5-38e7e72bfecc"> 
 
 ### Mux8Way16
 
