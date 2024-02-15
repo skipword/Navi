@@ -87,6 +87,7 @@ Es una compuerta lógica que toma ocho entradas y produce una salida. La salida 
 |  00100110  |  1  |
 
 <img src="https://nand2tetris-hdl.github.io/img/or8.png">
+
 ### Mux4Way16
 
 ### Mux8Way16
