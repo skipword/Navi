@@ -3,7 +3,7 @@ CHIP Not {
     OUT out;
 
     PARTS:
-//// Como el Nand es de dos entradas el programa solicita una y esa misma la pone en las dos entradadas para asi obtener el not de la entrada
-//// Asi logra negar cualquier entrada que reciba sea "1" o "0" 
+// Como el Nand es de dos entradas el programa solicita una y esa misma la pone en las dos entradadas para asi obtener el not de la entrada
+// Asi logra negar cualquier entrada que reciba sea "1" o "0" 
     Nand(a=in, b=in, out=out);
 }
