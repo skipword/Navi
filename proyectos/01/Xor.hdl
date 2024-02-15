@@ -1,0 +1,12 @@
+CHIP Xor {
+    IN a, b;
+    OUT out;
+
+    PARTS:
+    Not(in=a, out=nptf);
+    Not(in=b, out=notg);
+    And(a=a, b=notg, out=Gf);
+    And(a=nptf, b=b, out=Gg);
+    Or(a=Gf, b=Gg, out=out);
+
+}
