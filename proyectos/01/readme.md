@@ -64,7 +64,7 @@ La compuerta Xor genera una salida alta (1) siempre que sus 2 entradas son difer
 ### And16
 Para realizar este proceso lógico se utilizó la compuerta And ya explicada pero se replica el proceso 16 veces para obtenerse el And16
 ### Or16
-
+Este proceso logico se realiza de fonrma similar a la compuerta Or explicada anteriormente, pero acepta 16 bits en cada una de sus entradas, es decir recibe 16 "a" y 16 "b" obteniendo 16 salidas correspondientes a cada par de entradas 
 ### Mux16
 
 ### Or8Way
