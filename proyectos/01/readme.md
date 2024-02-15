@@ -141,7 +141,16 @@ Dmux8way significa "demultiplexor de 8 vías". Es un dispositivo digital que tom
 ## Preguntas adicionales:
 1. ¿Que consideraciones importantes debe tener en cuenta para trabajar con Nand2Tetris?
 
-Para trabajar con Nand2Tetris, es fundamental comprender su objetivo educativo, tener habilidades de programación, seguir el material del curso para guiar el progreso, dividir el trabajo en etapas manejables, estar dispuesto a experimentar y ser creativo en el proceso de realizacion de el trabajo.
+Para trabajar con Nand2Tetris, es fundamental comprender su objetivo educativo, tener habilidades de programación, seguir el material del curso para guiar el desarrollo, dividir el trabajo en etapas manejables, compartir los resultados con los demás compañeros para fomentar el aprendizaje, estar dispuesto a experimentar y ser creativo en el proceso de realizacion de el trabajo.
+
+2. ¿Qué otras herramientas similares a Nand2Tetris existen? (De mínimo dos ejemplos)
+
+- https://eater.net/8bit
+Serie de videos documentados en youtube que sigue el progreso de Ben Eater en la construcción de una computadora de 8bits por medio de compuertas lógicas
+
+- https://nandgame.com/
+Página interactiva y sencilla que simula construir una computadora desde sus más básicos componentes por medio de una serie de niveles. 
+
 
 ## Referencias
 - https://gittest2121.gitbook.io/nand2tetris/
