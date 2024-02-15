@@ -21,7 +21,8 @@ La compuerta NOT, que realiza la operación de inversión lógica, utiliza inter
 <img src="https://portalacademico.cch.unam.mx/sites/default/files/cyc1u2oa5p08e04.jpg">
 
 ### And
-Al contrario que la NAND, la compuerta AND resulta en una salida verdadera (1) si todas sus entradas son verdaderas, en caso contrario, resulta en una salida baja (0)
+Al contrario que la NAND, la compuerta AND resulta en una salida verdadera (1) si todas sus entradas son verdaderas, en caso contrario, resulta en una salida baja (0).
+A la hora de modelarla se usaron dos compuertas NAND; de esta manera, su primera salida sólo será 0 cuando ambas entradas sean 1, y en consecuencia su segunda salida resultará en 1.
 | A  | B | SALIDA |
 |----|:--:|------:|
 | 0 | 0 | 0 |
