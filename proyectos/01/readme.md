@@ -10,7 +10,7 @@ La base con la que se construirán los demás bloques. Su funcionamiento se resu
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
 
-<img src="imgs/compuertas/nand.png">
+<img src="https://www.build-electronic-circuits.com/wp-content/uploads/2022/09/Logic-symbol-NAND-gate-text.png">
 
 ### Not
 
