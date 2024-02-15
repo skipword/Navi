@@ -111,8 +111,16 @@ Es una compuerta lógica que toma ocho entradas y produce una salida. La salida 
 
 ### DMux4Way
 
+Es un componente digital que toma una entrada y la dirige hacia una de sus dos salidas dependiendo de una señal de selección. Si la señal de selección está en estado bajo, la entrada se dirige a una de las salidas, mientras que si la señal de selección está en estado alto, la entrada se dirige a la otra salida. Esencialmente, el DMux divide una señal de entrada en dos salidas distintas basadas en una señal de control.
 
-<img width="300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Demultiplexer_Example01.svg/525px-Demultiplexer_Example01.svg.png">
+| IN  | SEL1 | SEL2 | Y0 | Y1 | Y2 | Y3 |
+|--|:--:|:--:|--:|--:|--:|--:|
+|   0   |   0   |   0   |   1   |  0  |  0  |  0  |
+|   0   |   1   |   0   |   0   |  1  |  0  |  0  |
+|   1   |   0   |   1   |   0   |  0  |  1  |  0  |
+|   1   |   1   |   0   |   0   |  0  |  0  |  1  |
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Demultiplexer_Example01.svg/525px-Demultiplexer_Example01.svg.png">
 
 
 ### DMux8Way
