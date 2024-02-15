@@ -146,10 +146,10 @@ Para trabajar con Nand2Tetris, es fundamental comprender su objetivo educativo, 
 2. ¿Qué otras herramientas similares a Nand2Tetris existen? (De mínimo dos ejemplos)
 
 - https://eater.net/8bit
-Serie de videos documentados en youtube que sigue el progreso de Ben Eater en la construcción de una computadora de 8bits por medio de compuertas lógicas
+Serie de videos documentados en youtube que sigue el progreso de su autor en la construcción de una computadora de 8bits por medio de compuertas lógicas.
 
 - https://nandgame.com/
-Página interactiva y sencilla que simula construir una computadora desde sus más básicos componentes por medio de una serie de niveles. 
+Página interactiva que simula construir una computadora desde sus más básicos componentes por medio de una serie de niveles. Inspirado en Nand2Tetris, cubre solo una pequeña parte de este curso
 
 
 ## Referencias
