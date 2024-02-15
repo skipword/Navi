@@ -9,3 +9,5 @@ La base con la que se construirán los demás bloques. Su funcionamiento se resu
 | 0 | 1 | 1 |
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
+
+<img src="imgs/compuertas/nand.png">
