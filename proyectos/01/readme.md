@@ -123,8 +123,7 @@ Un multiplexor m-vías de n-bits selecciona uno de las m buses de entrada de n b
 
 ### DMux4Way
 
-Es un componente digital que toma una entrada y la dirige hacia una de sus dos salidas dependiendo de una señal de selección. Si la señal de selección está en estado bajo, la entrada se dirige a una de las salidas, mientras que si la señal de selección está en estado alto, la entrada se dirige a la otra salida. Esencialmente, el DMux divide una señal de entrada en dos salidas distintas basadas en una señal de control.
-
+Es un componente digital que toma una entrada y la dirige hacia una de sus cuatro posibles salidas/canales dependiendo de la combinacion dada en sus dos señales de selección, cuando se toma uno de sus posibles outputs data los demas quedan en señal baja (0) y en el canal seleccionado por la combinacion de las señales se replica la informacion del input data. se puede ver como una combinacion de dos Dmux clasicos.
 | IN  | SEL1 | SEL2 | Y0 | Y1 | Y2 | Y3 |
 |--|:--:|:--:|--:|--:|--:|--:|
 |   0   |   0   |   0   |   1   |  0  |  0  |  0  |
@@ -133,7 +132,6 @@ Es un componente digital que toma una entrada y la dirige hacia una de sus dos s
 |   1   |   1   |   1   |   0   |  0  |  0  |  1  |
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Demultiplexer_Example01.svg/525px-Demultiplexer_Example01.svg.png">
-
 
 ### DMux8Way
 Dmux8way significa "demultiplexor de 8 vías". Es un dispositivo digital que toma una única entrada y la dirige a una de las ocho salidas posibles, según una señal de control. Básicamente, permite seleccionar una de las ocho salidas para enviar la señal de entrada. Este tipo de componente es útil en el diseño de circuitos digitales donde se necesita distribuir una señal de entrada a múltiples destinos de manera selectiva. Los demultiplexores de este tipo son comúnmente utilizados en aplicaciones de procesamiento y enrutamiento de datos en sistemas digitales.
