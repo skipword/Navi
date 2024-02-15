@@ -122,7 +122,7 @@ Un multiplexor m-vías de n-bits selecciona uno de las m buses de entrada de n b
 <img width="400" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd1lvwzdke54ywg.cloudfront.net%2FMux4Way16.png&f=1&nofb=1&ipt=c69e0ef2a04e6a3bb59f695970f9a168953d4ad9a3895be364a54e89cca14753&ipo=images"> 
 
 ### Mux8Way16
-
+El compononte Dmux8way significa "demultiplexor de 8 vías" así mismo para su facilidad en el entender el Mux8way16 es un componente en la electrónica digital que se utiliza para seleccionar una de entre ocho entradas de datos de 16 bits, la forma en que funciona es que, dependiendo de los valores de las líneas de control, el Mux8way16 seleccionará una de las ocho entradas de datos y enviará su contenido a la salida. 
 ### DMux4Way
 
 Es un componente digital que toma una entrada y la dirige hacia una de sus cuatro posibles salidas/canales dependiendo de la combinacion dada en sus dos señales de selección, cuando se toma uno de sus posibles outputs data los demas quedan en señal baja (0) y en el canal seleccionado por la combinacion de las señales se replica la informacion del input data. se puede ver como una combinacion de dos Dmux clasicos.
