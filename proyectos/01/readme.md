@@ -78,7 +78,9 @@ Es un componente digital que toma una entrada y la dirige hacia una de sus dos s
 |   1   |   0   |   1   |   0   |
 |   1   |   1   |   0   |   1   |
 <img width="300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Demultiplexer_Example01.svg/525px-Demultiplexer_Example01.svg.png">
+
 ### Not16
+Similar a la compuerta NOT, NOT16 aceptará un input de 16 bits, es decir, aplica la operación a cada uno de los bits y produce como resultado una respuesta de 16bits.
 
 ### And16
 Para realizar este proceso lógico se utilizó la compuerta And ya explicada pero se replica el proceso 16 veces para obtenerse el And16
