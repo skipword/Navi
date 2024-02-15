@@ -11,3 +11,33 @@ La base con la que se construirán los demás bloques. Su funcionamiento se resu
 | 1 | 1 | 0 |
 
 <img src="imgs/compuertas/nand.png">
+
+### Not
+
+### And
+
+### Or
+
+### Xor
+
+### Mux
+
+### DMux
+
+### Not16
+
+### And16
+
+### Or16
+
+### Mux16
+
+### Or8Way
+
+### Mux4Way16
+
+### Mux8Way16
+
+### DMux4Way
+
+### DMux8Way
