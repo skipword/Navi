@@ -25,7 +25,7 @@ Para la compuerta OR se distingue en que sus salidas bajas (0) será en cuyo mom
 | 1 | 0 | 1 |
 | 1 | 1 | 1 |
 
-<img src="imgs/compuertas/or.jpg">
+<img src="main/imgs/compuertas/or.jpg">
 ### Xor
 
 ### Mux
