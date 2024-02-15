@@ -143,4 +143,8 @@ Dmux8way significa "demultiplexor de 8 vías". Es un dispositivo digital que tom
 
 Para trabajar con Nand2Tetris, es fundamental comprender su objetivo educativo, tener habilidades de programación, seguir el material del curso para guiar el progreso, dividir el trabajo en etapas manejables, estar dispuesto a experimentar y ser creativo en el proceso de realizacion de el trabajo.
 
+## Referencias
+- https://gittest2121.gitbook.io/nand2tetris/combinational-chips/mux4way16-chip
+- https://www.nand2tetris.org/_files/ugd/44046b_f2c9e41f0b204a34ab78be0ae4953128.pdf
+
 
