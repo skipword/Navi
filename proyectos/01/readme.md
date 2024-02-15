@@ -108,7 +108,7 @@ Es una compuerta lógica que toma ocho entradas y produce una salida. La salida 
 <img width="300" src="https://nand2tetris-hdl.github.io/img/or8.png">
 
 ### Mux4Way16
-Un multiplexor m-vías de n-bits selecciona uno de las m buses de entrada de n bits y lo envía hacia un único bus de salida de n bits, es decir, usa la salida del anterior como la entrada del siguiente, en este caso, se trata de un multiplexor de 4 vías y 16 bits.
+Un multiplexor m-vías de n-bits selecciona uno de las m buses de entrada de n bits y lo envía hacia un único bus de salida de n bits. En este caso, se trata de un multiplexor de 4 vías de 16 bits, por lo que se estaría usando 3 veces la función mux16.
 
 
 | sel[1]  | sel[0] | SALIDA |
@@ -119,7 +119,7 @@ Un multiplexor m-vías de n-bits selecciona uno de las m buses de entrada de n b
 | 1 | 1 | d|
 
 
-<img width="400" src="https://576563040-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61xaDLg3WD0A24S5G3rN%2Fuploads%2FYT9S578HVZBNXaqojRMC%2Fimg.png?alt=media&token=ffd428f4-bc9a-41e4-a3f5-38e7e72bfecc"> 
+<img width="400" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd1lvwzdke54ywg.cloudfront.net%2FMux4Way16.png&f=1&nofb=1&ipt=c69e0ef2a04e6a3bb59f695970f9a168953d4ad9a3895be364a54e89cca14753&ipo=images"> 
 
 ### Mux8Way16
 
