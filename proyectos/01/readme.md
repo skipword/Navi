@@ -118,7 +118,7 @@ Es un componente digital que toma una entrada y la dirige hacia una de sus dos s
 |   0   |   0   |   0   |   1   |  0  |  0  |  0  |
 |   0   |   1   |   0   |   0   |  1  |  0  |  0  |
 |   1   |   0   |   1   |   0   |  0  |  1  |  0  |
-|   1   |   1   |   0   |   0   |  0  |  0  |  1  |
+|   1   |   1   |   1   |   0   |  0  |  0  |  1  |
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Demultiplexer_Example01.svg/525px-Demultiplexer_Example01.svg.png">
 
