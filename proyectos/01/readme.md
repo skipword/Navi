@@ -76,7 +76,17 @@ Este proceso logico se realiza de fonrma similar a la compuerta Or explicada ant
 ### Mux16
 
 ### Or8Way
+Es una compuerta lógica que toma ocho entradas y produce una salida. La salida es 1 si al menos una de las entradas es 1, y es 0 si todas las entradas son 0. Esencialmente, realiza la operación OR en todas las entradas para determinar la salida.
 
+|     IN     | OUT |
+|--|--:|
+|  00000000  |  0  |
+|  11111111  |  1  |
+|  00010000  |  1  |
+|  00000001  |  1  |
+|  00100110  |  1  |
+
+<img src="https://nand2tetris-hdl.github.io/img/or8.png">
 ### Mux4Way16
 
 ### Mux8Way16
