@@ -1,0 +1,19 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/01/Or.hdl
+/**
+ * Or gate:
+ * if ((a == 1) or (b == 1)) out = 1, else out = 0 
+ */
+CHIP Or {
+    IN a, b;
+    OUT out;
+
+    PARTS:
+    //// Usando la compuerta Nand, a partir de negar ambas entradas se 
+    //// puede obtener la compuerta Or
+    Not(in=a, out=out1); //Se niega la primera entrada y se le asigna el nombre de out1
+    Not(in=b, out=out2); //Se niega la segunda entrada y se le asigna el nombre de out2
+    Nand(a=out1, b=out2, out=out);   //Acá usamos las entradas negadas para obtener un Or
+}
