@@ -26,8 +26,16 @@ Para la compuerta OR se distingue en que sus salidas bajas (0) será en cuyo mom
 | 1 | 1 | 1 |
 
 <img src="main/imgs/compuertas/or.jpg">
-### Xor
 
+### Xor
+La compuerta Xor genera una salida alta (1) siempre que sus 2 entradas son diferentes.
+
+| A  | B | SALIDA |
+|----|:--:|------:|
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
 ### Mux
 
 ### DMux
