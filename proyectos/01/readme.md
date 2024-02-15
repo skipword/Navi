@@ -15,6 +15,16 @@ La base con la que se construirán los demás bloques. Su funcionamiento se resu
 ### Not
 
 ### And
+Al contrario que la NAND, la compuerta AND resulta en una salida verdadera (1) si todas sus entradas son verdaderas, en caso contrario, resulta en una salida baja (0)
+| A  | B | SALIDA |
+|----|:--:|------:|
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
+
+<img src="https://www.build-electronic-circuits.com/wp-content/uploads/2022/09/Logic-symbol-AND-gate-text.png">
+
 
 ### Or
 Para la compuerta OR se distingue en que sus salidas bajas (0) será en cuyo momento ambas entradas sean 0, por lo tanto en el momento donde cualquier entrada sea (1) el resultado de la compuerta OR será alto (1).
