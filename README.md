@@ -19,6 +19,7 @@ Grupo conformado por cinco integrantes que comparten el gusto hacia la ingenier�
   
 - **ORDUZ PICON CHRISTIAN ISNARDO**
 
+<img src="imgs/ChrisO.jpeg" width="425" height="425" title="christian">
   Estudiante de ingeniera de sistemas, con un gran interés en ciberseguridad, con conocimientos básicos en programación web, con manejo básico de lenguajes de programación como python, java y C, realizó estudios de idiomas con énfasis en Ingles en el instituto de lengua UIS, perteneciente a la selección de Tenis de Mesa UIS, distinguible por su compromiso, disciplina e integridad. Participó en conjunto con la escuela de ingeniería mecánica en el semillero de investigación de inteligencia artificial, bajo el grupo de investigación GIEMA.
   
 - **PARRA ARIZA ANDREA JULIANA**
