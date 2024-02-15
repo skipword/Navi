@@ -58,7 +58,7 @@ La compuerta Xor genera una salida alta (1) siempre que sus 2 entradas son difer
 ### Mux
 
 ### DMux
-es un componente digital que toma una entrada y la dirige hacia una de sus dos salidas dependiendo de una señal de selección. Si la señal de selección está en estado bajo, la entrada se dirige a una de las salidas, mientras que si la señal de selección está en estado alto, la entrada se dirige a la otra salida. Esencialmente, el DMux divide una señal de entrada en dos salidas distintas basadas en una señal de control.
+Es un componente digital que toma una entrada y la dirige hacia una de sus dos salidas dependiendo de una señal de selección. Si la señal de selección está en estado bajo, la entrada se dirige a una de las salidas, mientras que si la señal de selección está en estado alto, la entrada se dirige a la otra salida. Esencialmente, el DMux divide una señal de entrada en dos salidas distintas basadas en una señal de control.
 
 | IN  | SEL | A | B|
 |--|:--:|:--:|--:|
