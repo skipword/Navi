@@ -10,7 +10,7 @@ La base con la que se construirán los demás bloques. Su funcionamiento se resu
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
 
-<img src="https://www.build-electronic-circuits.com/wp-content/uploads/2022/09/Logic-symbol-NAND-gate-text.png">
+<img width="300" src="https://www.build-electronic-circuits.com/wp-content/uploads/2022/09/Logic-symbol-NAND-gate-text.png">
 
 ### Not
 La compuerta NOT, que realiza la operación de inversión lógica, utiliza internamente una compuerta NAND para su funcionamiento. La compuerta NOT toma una sola entrada y produce una salida que es el inverso lógico de la entrada: si la entrada es 0, la salida es 1; si la entrada es 1, la salida es 0.
@@ -18,7 +18,7 @@ La compuerta NOT, que realiza la operación de inversión lógica, utiliza inter
 |----|------:|
 | 0 | 1 |
 | 1 | 0 |
-<img src="https://portalacademico.cch.unam.mx/sites/default/files/cyc1u2oa5p08e04.jpg">
+<img width="300" src="https://portalacademico.cch.unam.mx/sites/default/files/cyc1u2oa5p08e04.jpg">
 
 ### And
 Al contrario que la NAND, la compuerta AND resulta en una salida verdadera (1) si todas sus entradas son verdaderas, en caso contrario, resulta en una salida baja (0).
