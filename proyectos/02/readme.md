@@ -4,7 +4,7 @@ Para el segundo proyecto se busca construir diseños de compuertas lógicas que 
 ### HalfAdder
 
 ### FullAdder
-A diferencia del halfAdder, el FullAdder computa la suma de 3 bits: a,b y un bit carry-in, este último se introduce en el sistema para tener en cuenta acarreos de sumas previas, que ocurren cuando el resultado de una suma excede 1. La implementación a HDL sigue la misma lógica que la suma de números binarios, se suma desde el digito menos significativo (derecha) hasta el más significativo (izquierda) y cuando una suma supera 1 se acarrea 1
+A diferencia del halfAdder, el FullAdder computa la suma de 3 bits: a, b y un bit carry-in, este último se introduce en el sistema para tener en cuenta acarreos de sumas previas que ocurren cuando el resultado de una suma excede 1. La implementación a HDL sigue la misma lógica que la suma de números binarios, se suma desde el digito menos significativo (derecha) hasta el más significativo (izquierda) y cuando una suma supera 1 se acarrea 1
 al siguiente orden superior; esto se modela gracias al HalfAdder codificado previamente. 
 
 
