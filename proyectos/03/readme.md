@@ -523,7 +523,11 @@ Un contador de *w* bits consta de dos elementos principales: un registro de w bi
   - Si se quiere resetear a 0, se activa el bit de *reset*
   - Si se quiere inicializar en alguna otra base de conteo *d*, colocamos *d* en la entrada 'in' y activamos el bit de *load*.
 
-
+Estas tres funciones fueron implementadas haciendo uso de tres chips:
+- Inc16 como el incrementador de 16 bits
+- Mux16, permite seleccionar entre dos entradas de datos de 16 bits basado en los valores de tres bits de control: reset, load e increment.
+- Register, puede tomar un valor de entrada de 16 bits, almacenarlo termporalmente, y cargar el valor almacenado en el ciclo de reloj siguiente si se activa la señal de load
+  
 ## Bibliografía
 - https://www.nand2tetris.org/_files/ugd/44046b_862828b3a3464a809cda6f44d9ad2ec9.pdf
 - 
