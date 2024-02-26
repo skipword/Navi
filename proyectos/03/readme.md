@@ -8,7 +8,7 @@ Un flip-flop D es un tipo de circuito secuencial que puede almacenar un bit de d
 |-----------|-----------|-----------|----------|----------|
 | 0 | ↑ | 0 | 1 |  RESET
 | 1 | ↑ | 1 | 0 | SET
-| x | x | Q_n-1' | Q_n-1 | SIN CAMBIO
+| x | x | Qn-1' | Qn-1 | SIN CAMBIO
 
 ### Bit
 
