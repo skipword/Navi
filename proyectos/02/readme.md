@@ -3,6 +3,23 @@ Para el segundo proyecto se busca construir diseños de compuertas lógicas que 
 
 ### HalfAdder
 
+Half Adder (medio sumador) es un circuito lógico digital básico que realiza la suma de dos bits individuales y produce dos resultados: la suma de los bits (bit menos significativo) y un acarreo (bit más significativo). Es decir, toma dos bits de entrada y produce dos bits de salida. El medio sumador es fundamental en la construcción de circuitos aritméticos más complejos, como sumadores completos y sumadores de múltiples bits.
+
+*Diagrama de un HalfAdder*
+
+<img width="400" src="https://www.watelectronics.com/wp-content/uploads/Half-Adder-1.jpg">
+
+*Tabla de verdad HalfAdder*
+
+
+|   a   |   b   |  sum  | carry |
+|-----------|-----------|-----------|----------|
+|   0   |   0   |   0   |   0   |
+|   0   |   1   |   1   |   0   |
+|   1   |   0   |   1   |   0   |
+|   1   |   1   |   0   |   1   |
+
+
 ### FullAdder
 A diferencia del halfAdder, el FullAdder computa la suma de 3 bits: a, b y un bit carry-in, este último se introduce en el sistema para tener en cuenta acarreos de sumas previas que ocurren cuando el resultado de una suma excede 1. La implementación a HDL sigue la misma lógica que la suma de números binarios, se suma desde el digito menos significativo (derecha) hasta el más significativo (izquierda) y cuando una suma supera 1 se acarrea 1
 al siguiente orden superior; esto se modela en 2 etapas:
