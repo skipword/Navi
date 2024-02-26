@@ -530,4 +530,4 @@ Estas tres funciones fueron implementadas haciendo uso de tres chips:
   
 ## Bibliografía
 - https://www.nand2tetris.org/_files/ugd/44046b_862828b3a3464a809cda6f44d9ad2ec9.pdf
-- 
+- https://youtu.be/u2O_9sZInU4?si=uSgfJWLuhg3egJx5
