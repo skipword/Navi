@@ -517,7 +517,11 @@ El chip está organizado internamente para dividir la memoria en 8 secciones, ca
 
 ### RAM16K
 
-### PC
+### PC (counter)
+Un contador de *w* bits consta de dos elementos principales: un registro de w bits y lógica combinacional, que está diseñada para (a) calcular la función de conteo y (b) colocar el contador en el modo de funcionamiento correcto, según lo dicten los valores de sus tres bits de control (reset, load, increment).
+  - Cuando inc=1, incrementa su estado en cada ciclo de reloj out(t)=out(t-1)+1
+  - Si se quiere resetear a 0, se activa el bit de *reset*
+  - Si se quiere inicializar en alguna otra base de conteo *d*, colocamos *d* en la entrada 'in' y activamos el bit de *load*.
 
 
 ## Bibliografía
