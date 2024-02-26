@@ -2,7 +2,13 @@
 La Memoria de Acceso Aleatorio (RAM) es una secuencia de registros direccionables, cada uno diseñado para almacenar un valor de n bits, y es la memoría principal y forma de almacenamiento temporal de una computadora, su nombre se debe a la capacidad que tiene de poder acceder a cualquier ubicación de memoria de manera directa y casi instantánea, a diferencia de dispositivos de almacenamiento de acceso directo (DVDs, CDs, etc). El objetivo del presente proyecto es contruir una unidad de RAM por medio de compuertas lógicas que (1) almacene bits de manera persistente en el tiempo, y (2) localice el registro de memoria que queramos usar. Para hacer eso se hará uso de chips secuenciales, basados en el uso de clocks, flip-flops, registros, DFF, etc
 
 ### DFF
-Un flip-flop D es un tipo de circuito secuencial que puede almacenar un bit de datos. Este dispositivo tiene dos estados, SET y RESET, los cuales cambian si reciben una señal del reloj. Consta de dos entradas principales: una para los datos (denominada D) y otra para la señal de reloj (CLK), junto con dos salidas: Q y su complemento, Q'. Cuando la señal de reloj cambia de estado, el flip-flop D guarda el valor presente en la entrada de datos (D), manteniéndolo hasta el siguiente pulso de reloj. Gracias a su funcionalidad de almacenamiento es que se va a trabajar con él en esta práctica
+Un flip-flop D es un tipo de circuito secuencial que puede almacenar un bit de datos. Este dispositivo tiene dos estados, SET y RESET, los cuales cambian si reciben una señal del reloj. Consta de dos entradas principales: una para los datos (denominada D) y otra para la señal de reloj (CLK), junto con dos salidas: Q y su complemento, Q'. Cuando la señal de reloj cambia de estado, el flip-flop D guarda el valor presente en la entrada de datos (D), manteniéndolo hasta el siguiente pulso de reloj. Gracias a su funcionalidad de almacenamiento es que se va a trabajar con él en esta 
+
+| D | CLK | Q'| Q |  |
+|-----------|-----------|-----------|----------|----------|
+| 0 | ↑ | 0 | 1 |  RESET
+| 1 | ↑ | 1 | 0 | SET
+| x | x | Q_n-1' | Q_n-1 | SIN CAMBIO
 
 ### Bit
 
