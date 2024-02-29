@@ -62,7 +62,47 @@ Inc16 es un acrónimo que representa "Incrementador de 16 bits". Es un component
 
 
 ### ALU
+El ALU está diseñado para entregar 18 funciones diferentes como salida(output), usando valores de 16 bits, tiene 6 bits de control, dos entradas, la entrada *x* y *y* de 16 bits cada una.
+La manipulación de los bits de control para la entrada *x* son *zx* y *nx*, en tanto para la entrada *y* son *zy* y *ny*, las funciones modificadas son usadas en la operación determinada por la entrada *f*, además con la entrada *no* se puede modificar la salida.
+Asi mismo se puede obtener más información de la salida según se usa el status de los bit *zr* y *ng*.
+*Tabla ALU*
+| zx | nx | zy | ny | f | no | out |
+|----|----|----|----|---|----|-----|
+|  1 |  0 |  1 |  0 | 1 |  0 |   0 |
+|  1 |  1 |  1 |  1 | 1 |  1 |   1 |
+|  1 |  1 |  1 |  0 | 1 |  0 |  -1 |
+|  0 |  0 |  1 |  1 | 0 |  0 |   x |
+|  1 |  1 |  0 |  0 | 0 |  0 |   y |
+|  0 |  0 |  1 |  1 | 0 |  1 |  !x |
+|  1 |  1 |  0 |  0 | 0 |  1 |  !y |
+|  0 |  0 |  1 |  1 | 1 |  1 |  -x |
+|  1 |  1 |  0 |  0 | 1 |  1 |  -y |
+|  0 |  1 |  1 |  1 | 1 |  1 | x+1 |
+|  1 |  1 |  0 |  1 | 1 |  1 | y+1 |
+|  0 |  0 |  1 |  1 | 1 |  0 | x-1 |
+|  1 |  1 |  0 |  0 | 1 |  0 | y-1 |
+|  0 |  0 |  0 |  0 | 1 |  0 | x+y |
+|  0 |  1 |  0 |  0 | 1 |  1 | x-y |
+|  0 |  0 |  0 |  1 | 1 |  1 | y-x |
+|  0 |  0 |  0 |  0 | 0 |  0 | x&y |
+|  0 |  1 |  0 |  1 | 0 |  1 | x|y |
 
+Control para x
+cuando ZX es ==1 todo los 16 bits serán 0
+Cuando nx ==1 negara la entrada de x (!x)
+Zx==1&&Nx==1 --> todos los 16 bits serán 1
+Cuando ambos están desactivados *x* seguirá sin cambios
+Se puede observar su comportamiento en la siguiente tabla
+**Tabla de verdad'
+| zx| x | outputs|
+|----|----|----|
+|0|0|0|
+|0|1|1|
+|1|0|0|
+|1|1|0|
+
+Lo que es representado mediante Zx'X
+![inc16](https://github.com/skipword/Navi/assets/159462338/03af0416-706c-4b57-bfa0-89c439ba375d)
 ## Bibliografía
 - https://www.nand2tetris.org/_files/ugd/44046b_f0eaab042ba042dcb58f3e08b46bb4d7.pdf
 - https://gittest2121.gitbook.io/nand2tetris/combinational-chips/full-adder-chip
