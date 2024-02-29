@@ -56,7 +56,8 @@ Su tabla de verdad es demasiado extensa debido a que son numeros de 16 bits. per
 
 Inc16 es un acrónimo que representa "Incrementador de 16 bits". Es un componente digital que toma una entrada de 16 bits y la incrementa en 1, produciendo la salida correspondiente. Este tipo de componente es comúnmente utilizado en circuitos digitales y en sistemas de procesamiento de datos para realizar operaciones de suma, incremento o conteo de valores binarios de 16 bits.
 
-<img width="400" src=["https://media.geeksforgeeks.org/wp-content/uploads/20210429115210/updatedIncre.jpeg">
+![inc16](https://github.com/skipword/Navi/assets/159462338/03af0416-706c-4b57-bfa0-89c439ba375d)
+
 
 ### ALU
 
