@@ -45,6 +45,13 @@ al siguiente orden superior; esto se modela en 2 etapas:
 
 ### Add16
 
+En un add16, se suman dos números binarios de 16 bits bit a bit, empezando por el bit menos significativo (el bit 0) hasta el bit más significativo (el bit 15). Si hay un acarreo generado por la suma de dos bits, se lleva a cabo al siguiente bit más significativo. 
+Para construir un add16, se pueden utilizar 16 fulladder en cascada. Cada fullader recibe dos bits de los números que se están sumando y el bit de acarreo de la suma anterior (a excepcón del primer fullader, quien recibe dos bits de los números que se están sumando y el acarreo de entrada (Cin) va a tierra debido a que al inicio no hay acarreo). El bit de acarreo de salida fullader se alimenta como entrada al siguiente sumador completo en la cadena. De esta manera, cada sumador completo contribuye a la suma total de los números de 16 bits. Finalmente para los casos en los que el resultado de la suma da 17 bits, el add16 tiene 16 salidas (una por cada suma de dos numeros binarios bit a bit) y una salida número 17 quien es el Cout o el ultimo acarreo.
+
+Su tabla de verdad es demasiado extensa debido a que son numeros de 16 bits. pero sigue la misma logica que el halfadder y el fulladder.
+
+
+
 ### Inc16
 
 ### ALU
