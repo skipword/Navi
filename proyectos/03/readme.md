@@ -176,6 +176,7 @@ En el contexto de la ingeniería de hardware y la electrónica digital, un regis
 ### RAM8
 
 ### RAM64
+RAM64 generalmente se refiere a una memoria RAM de 64 kilobytes (64K). Esta es una capacidad bastante pequeña en comparación con las capacidades de RAM modernas, ya que la mayoría de las computadoras y dispositivos actuales utilizan RAM en el rango de gigabytes (GB). La RAM se utiliza para almacenar temporalmente datos y programas que el procesador necesita acceder rápidamente mientras se ejecutan tareas. La cantidad de RAM en un sistema afecta directamente su capacidad para ejecutar múltiples programas y tareas simultáneamente.
 
 ### RAM512
 
