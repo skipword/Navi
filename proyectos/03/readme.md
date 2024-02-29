@@ -180,6 +180,7 @@ RAM64 generalmente se refiere a una memoria RAM de 64 kilobytes (64K). Esta es u
 
 *Tabla de verdad RAM64*
 | time |   in   |load |address|  out   |
+|-----------|-----------|-----------|----------|
 | 0+   |      0 |  0  |    0  |      0 |
 | 1    |      0 |  0  |    0  |      0 |
 | 1+   |      0 |  1  |    0  |      0 |
