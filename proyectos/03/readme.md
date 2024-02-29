@@ -517,6 +517,7 @@ El chip está organizado internamente para dividir la memoria en 8 secciones, ca
 | 81   |  21845 |  0  |  3925  |  21845 |
 
 ### RAM16K
+RAM16K se refiere a una memoria de acceso aleatorio (RAM) que tiene una capacidad de 16 kilobytes (16K). Esto significa que puede almacenar hasta 16,384 bytes de información y se utiliza comúnmente en computadoras y otros dispositivos electrónicos para almacenar datos temporalmente mientras el dispositivo está en funcionamiento. La RAM es una parte fundamental de cualquier sistema informático, ya que permite el acceso rápido a los datos y programas que se están utilizando actualmente.
 
 ### PC (counter)
 Un contador de *w* bits consta de dos elementos principales: un registro de w bits y lógica combinacional, que está diseñada para (a) calcular la función de conteo y (b) colocar el contador en el modo de funcionamiento correcto, según lo dicten los valores de sus tres bits de control (reset, load, increment).
