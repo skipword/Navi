@@ -11,7 +11,8 @@ Un flip-flop D es un tipo de circuito secuencial que puede almacenar un bit de d
 | x | x | Qn-1' | Qn-1 | SIN CAMBIO
 
 ### Bit
-
+Una de las funciones básicas a implementar es realizar registros de memoria de 1 bit, por lo tanto la función de lo implementado es guardar el valor que tenga un bit de entrada *in* en la salida *out*
+Para esto fue usado MUX, el cual es el encargado de decidir si se guarda o no el dato, asi mismo un DFF el cual va a leer el dato y lo retornará en un output a una entrada del MUX utilizado, para que de esta manera decida si se hace el cambio, badandose en el cambio de estado de la entrada load.
 ### Register
 
 En el contexto de la ingeniería de hardware y la electrónica digital, un registro es un dispositivo de almacenamiento que puede retener datos binarios durante un período de tiempo. En esencia, actúa como una especie de "memoria temporal" dentro de un circuito digital. Los registros son componentes fundamentales en la construcción de circuitos y sistemas digitales, y se utilizan para una variedad de propósitos, como el almacenamiento de datos, la transferencia de información entre componentes, y la implementación de funciones de control en circuitos secuenciales. En el código HDL proporcionado, el "register" es un registro de 16 bits que puede cargar un nuevo valor cuando se activa la señal de carga (load), y retener su valor actual cuando no se carga un nuevo valor.
