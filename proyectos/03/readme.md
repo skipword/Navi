@@ -904,6 +904,8 @@ Desarrollo: La construcción empieza con el bit a partir a partir de compuertas 
 
 Explique las principales diferencias entre la lógica aritmética y la lógica secuencial.
 
+la lógica aritmética se centra principalmente en funciones logicas, aritméticas y transmisión de datos a partir de compuertas interconectadas que dan lugar a los adder, multiplexores y demultiplexores, lo que implica que su salida en un momento especifico depende únicamente de su entrada en ese instante; mientras que la lógica secuencial se centra principalmente en el manejo de datos usados con anterioridad gracias a su capacidad de almacenar los mismos con el uso de bits, registros y RAM, debido a que son componentes especializados en la memoria y almacenamiento de información a través de sus estados internos
+
   
 ## Bibliografía
 - https://www.nand2tetris.org/_files/ugd/44046b_862828b3a3464a809cda6f44d9ad2ec9.pdf
