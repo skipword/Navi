@@ -175,7 +175,7 @@ En el contexto de la ingeniería de hardware y la electrónica digital, un regis
 
 ### RAM8
 Random acces memory, se construye a partir de la formación matricial de celdas de memoria que almacenan una enorme cantidad de registros de memoria en donde cada celda puede almacenar un bit de información y puede acceder y traer la información de cada registro en cualquier posición deseada gracias a que cada uno de ellos tiene una dirección asignada.
-Para el caso de la RAM8 (8 gigabytes) tiene una capacidad de almacenamiento equivalente a 68.719.476.736 bits
+Para el caso de la RAM8 por lo general soporta 64 bits y 8 direcciones de memoria (su nombre debido a esto).
 
 *Tabla de verdad de la RAM8 (suponiendo 8 direcciones de memoria)*
 
@@ -518,6 +518,24 @@ RAM64 generalmente se refiere a una memoria RAM de 64 kilobytes (64K). Esta es u
 | 81   |  21845 |  0  |   61  |  21845 |
 
 ### RAM512
+* Tabla de Verdad de RAM512*
+Funciona de manera similar a las RAM antes mencionadas pero en este caso generalmente tiene una capacidad de 4096 bits y 512 direcciones.
+| address | load | in | out |
+|--------------------------|---------------|----------------------|---------------------|
+| 000000000                | 0             | D0                   | Datos en Dirección 0 |
+| 000000001                | 0             | D1                   | Datos en Dirección 1 |
+| 000000010                | 0             | D2                   | Datos en Dirección 2 |
+| ...                      | ...           | ...                  | ...                 |
+| 111111101                | 0             | D509                 | Datos en Dirección 509 |
+| 111111110                | 0             | D510                 | Datos en Dirección 510 |
+| 111111111                | 0             | D511                 | Datos en Dirección 511 |
+| 000000000                | 1             | D0                   | (Sin Cambio)        |
+| 000000001                | 1             | D1                   | (Sin Cambio)        |
+| 000000010                | 1             | D2                   | (Sin Cambio)        |
+| ...                      | ...           | ...                  | ...                 |
+| 111111101                | 1             | D509                 | (Sin Cambio)        |
+| 111111110                | 1             | D510                 | (Sin Cambio)        |
+| 111111111                | 1             | D511                 | (Sin Cambio)        |
 
 ### RAM4K
 El chip RAM4K es una unidad de memoria que contiene 4096 registros, cada uno de los cuales puede almacenar una palabra de 16 bits. Su función principal es facilitar operaciones de lectura y escritura de datos.
