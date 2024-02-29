@@ -102,7 +102,6 @@ Se puede observar su comportamiento en la siguiente tabla
 |1|1|0|
 
 Lo que es representado mediante Zx'X
-![inc16](https://github.com/skipword/Navi/assets/159462338/03af0416-706c-4b57-bfa0-89c439ba375d)
 ## Bibliografía
 - https://www.nand2tetris.org/_files/ugd/44046b_f0eaab042ba042dcb58f3e08b46bb4d7.pdf
 - https://gittest2121.gitbook.io/nand2tetris/combinational-chips/full-adder-chip
