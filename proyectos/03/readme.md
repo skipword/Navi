@@ -886,6 +886,24 @@ Estas tres funciones fueron implementadas haciendo uso de tres chips:
 - Inc16 como el incrementador de 16 bits
 - Mux16, permite seleccionar entre dos entradas de datos de 16 bits basado en los valores de tres bits de control: reset, load e increment.
 - Register, puede tomar un valor de entrada de 16 bits, almacenarlo termporalmente, y cargar el valor almacenado en el ciclo de reloj siguiente si se activa la señal de load
+
+## Preguntas 
+¿Cuál es el objetivo de cada uno de esos proyectos con sus palabras y describa que debe hacer para desarrollarlo?
+		
+Proyecto 2 aritmetica booleana:	
+
+Objetivo: Construccion del ALU (unidad arimetica logica), uno de los componentes mas importantes en la arquitectura de una CPU a partir de chips mas especializados como los adder y la lógica traía desde el proyecto 1.
+
+Desarrollo: Empezamos con la construcción del halfadder a partir de compuertas lógicas usadas en el proyecto uno, después la construcción de los sumadores FullAdder, 16adder e Inc16 se pueden ver como el uso del halfadder repetidamente. Finalmente llega la construcción del ALU a partir de los sumadores y las compuertas lógicas de los proyectos 1 y 2
+
+
+Proyecto 3 Memorias:
+Objetivo: Construccion de un PC (contador de programa) implementando el nuevo chip DFF y los chips anteriormente vistos para lograr almacenar y buscar información mediante una dirección.
+
+Desarrollo: La construcción empieza con el bit a partir a partir de compuertas lógicas y el chip primitivo DFF, para luego seguir con los registros que son formados por estos bits, a partir de aquí se puede construir la RAM mediante una matriz de registros, incrementando cada vez mas su capacidad desde la RAM8 hasta la RAM16K, para finalmente llegar al PC.
+
+Explique las principales diferencias entre la lógica aritmética y la lógica secuencial.
+
   
 ## Bibliografía
 - https://www.nand2tetris.org/_files/ugd/44046b_862828b3a3464a809cda6f44d9ad2ec9.pdf
