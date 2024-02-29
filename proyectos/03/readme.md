@@ -174,7 +174,23 @@ En el contexto de la ingeniería de hardware y la electrónica digital, un regis
 | 74   |  32767 |  1  |  32767 |
 
 ### RAM8
+Random acces memory, se construye a partir de la formación matricial de celdas de memoria que almacenan una enorme cantidad de registros de memoria en donde cada celda puede almacenar un bit de información y puede acceder y traer la información de cada registro en cualquier posición deseada gracias a que cada uno de ellos tiene una dirección asignada.
+Para el caso de la RAM8 (8 gigabytes) tiene una capacidad de almacenamiento equivalente a 68.719.476.736 bits
 
+*Tabla de verdad de la RAM8 (suponiendo 8 direcciones de memoria)*
+
+| addres | load | in | out |
+|--------------------------|---------------|----------------------|---------------------|
+| 000                      | 0             | D0                   | Datos en Dirección 0 |
+| 001                      | 0             | D1                   | Datos en Dirección 1 |
+| 010                      | 0             | D2                   | Datos en Dirección 2 |
+| 011                      | 0             | D3                   | Datos en Dirección 3 |
+| 100                      | 0             | D4                   | Datos en Dirección 4 |
+| 101                      | 0             | D5                   | Datos en Dirección 5 |
+| 110                      | 0             | D6                   | Datos en Dirección 6 |
+| 111                      | 0             | D7                   | Datos en Dirección 7 |
+| 000                      | 1             | D0                   | (Sin Cambio)        |
+| 001                      | 1             | D1                   | (Sin Cambio) 
 ### RAM64
 RAM64 generalmente se refiere a una memoria RAM de 64 kilobytes (64K). Esta es una capacidad bastante pequeña en comparación con las capacidades de RAM modernas, ya que la mayoría de las computadoras y dispositivos actuales utilizan RAM en el rango de gigabytes (GB). La RAM se utiliza para almacenar temporalmente datos y programas que el procesador necesita acceder rápidamente mientras se ejecutan tareas. La cantidad de RAM en un sistema afecta directamente su capacidad para ejecutar múltiples programas y tareas simultáneamente.
 
