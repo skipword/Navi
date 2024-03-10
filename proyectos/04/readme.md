@@ -45,6 +45,9 @@ Teniendo esto claro, el pseudocódigo para esta tarea es el siguiente
 if(KBD > 0) goto BLACK
 else goto WHITE
  ```
+
+## ¿Por qué el lenguaje de máquina es importante para definir la arquitectura computacional?
+
 ## Referencias
 - https://www.nand2tetris.org/_files/ugd/44046b_7ef1c00a714c46768f08c459a6cab45a.pdf
 - https://zhongchuyun.gitbooks.io/nand2tetris/content/chapter_4.html
