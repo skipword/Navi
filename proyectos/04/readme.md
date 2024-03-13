@@ -2,7 +2,29 @@
 Para avanzar en la construcción de un computador, el siguiente paso a seguir es familiarizarse con el lenguaje de máquina; ello implica escribir programas en *Hack assembly language*, traducirlos a binario con un ensamblador y evaluar el código resultante. Aunque muchas personas nunca escribirán programas directamente en lenguaje de máquina, su estudio es una buena base para el entendimiento de las arquitecturas informáticas, se le puede ver como un conjunto de reglas estándar diseñadas para manipular la memoria de una computadora y realizar operaciones con su procesador y registros.  Puesto a que este es un proyecto conjunto con el quinto, se usará un emulador CPU y un ensamblador para probar el código.
 
 ### Mult
+El programa `Mult.asm` es un código en lenguaje ensamblador diseñado para multiplicar dos números enteros. Utiliza los registros de la memoria RAM de la computadora para realizar la operación. Comienza inicializando el registro R2 a cero, luego comprueba si el valor en el registro R0 es mayor que cero. Si es así, entra en un bucle donde suma el valor en el registro R1 al contenido actual del registro R2 y decrementa el valor en R0. Este proceso se repite hasta que el valor en R0 llega a cero. Finalmente, el resultado de la multiplicación se almacena en el registro R2.
 
+En el programa `Mult.asm`, se hace uso de tres registros de la memoria RAM para completar la tarea de multiplicación:
+
+1. R0: Este registro almacena el primer número que se va a multiplicar.
+2. R1: Almacena el segundo número que se va a multiplicar.
+3. R2: Es el registro donde se almacena el resultado de la multiplicación. Se inicializa en cero al comienzo del programa y se actualiza durante la multiplicación.
+
+Ejemplos de su uso son
+ ```
+// RAM[0] = 5
+@5
+D=A
+@R0
+M=D
+
+// RAM[1] = 7
+@7
+D=A
+@R1
+M=D
+
+ ```
 
 ### Fill
 Este programa consiste en un bucle infinito que espera input del teclado, tiene dos estados:
