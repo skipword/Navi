@@ -70,6 +70,8 @@ else goto WHITE
 
 ## ¿Por qué el lenguaje de máquina es importante para definir la arquitectura computacional?
 
+El lenguaje de máquina es importante para decirle a la computadora qué hacer exactamente. Es como el idioma básico que entienden los chips y la CPU. Sin este idioma, los programas no podrían correr en la computadora. Es como la base de todo lo que hacemos en las computadoras, permitiendo que los programas funcionen rápidamente y de manera eficiente.
+
 ## Referencias
 - https://www.nand2tetris.org/_files/ugd/44046b_7ef1c00a714c46768f08c459a6cab45a.pdf
 - https://zhongchuyun.gitbooks.io/nand2tetris/content/chapter_4.html
