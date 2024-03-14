@@ -34,8 +34,3 @@ CHIP Memory {
     Keyboard(out=kbout);
     Mux4Way16(a=ramout, b=ramout, c=scrout, d=kbout, sel=address[13..14], out=out);
 }
-// 0000 000 RAM start
-// 0011 FFF RAM end
-// 0100 000 Screen start
-// 0101 FFF Screen end
-// 0110 000 Keyboard
