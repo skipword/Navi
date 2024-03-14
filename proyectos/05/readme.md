@@ -34,6 +34,9 @@ Computadora especializada en operaciones de suma de números, ya sean enteros o 
 ### ComputerRect:
 Computadora optimizada para realizar cálculos relacionados con rectángulos, como área, perímetro, coordenadas y intersecciones.
 
+## ¿Por qué el lenguaje de máquina es importante para definir la arquitectura computacional?
+Es importante en la arquitectura ya que el lenguaje maquina permite definir las instrucciones básicas entregadas a la CPU y que esta misma puede ejecutar, algunas de las instrucciones pueden ser, cargar datos desde la memoria, realizar operaciones aritméticas y mover datos entre registros y memoria
+
 
 ## ¿Qué diferencia ven entre arquitectura computacional, arquitectura de software y arquitectura del sistema? 
 
