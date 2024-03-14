@@ -9,6 +9,13 @@ En este proyecto consolidaremos todos los elementos desarrollados en prácticas 
 Implementa una computadora completa con una memoria ROM de 32K palabras, una unidad central de procesamiento (CPU) y una memoria principal. La entrada de reset se utiliza para reiniciar la computadora. La ROM32K es una memoria de solo lectura que almacena las instrucciones del programa y proporciona la instrucción correspondiente a la dirección especificada por el contador de programa. El CPU ejecuta instrucciones y controla el flujo de datos y operaciones. La memoria principal almacena y recupera datos según la dirección proporcionada.
 
 Una implementación específica del sistema "Computer" son "ComputerMax" y "ComputerAdd", "ComputerRect"
+
+![computer](https://github.com/skipword/Navi/assets/159462338/8fdf73a9-c4c3-4455-bde1-b2d7e28752ec)
+
+
+### ComputerMax:
+Computadora con un conjunto amplio de instrucciones que incluye operaciones aritmeticas, lógicas y de control de flujo. Puede buscar y mantener el valor maximo de una serie de datos.
+
 ## ¿Qué diferencia ven entre arquitectura computacional, arquitectura de software y arquitectura del sistema? 
 
 
