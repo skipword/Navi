@@ -1,9 +1,10 @@
-![image](https://github.com/skipword/Navi/assets/159461539/7aa65ce7-f19d-4c4e-a090-5cd8096f9d16)# Proyecto 5
+# Proyecto 5
 En este proyecto consolidaremos todos los elementos desarrollados en prácticas anteriores. Se integrarán los dispositivos ALU y RAM del 2 y 3 en una computadora capaz de ejecutar programas escritos en lenguaje de máquina, como los hechos en el proyecto número 4. La computadora a hacer es denominada *Hack*, y sigue la arquitectura *Von Neumann*. Esta arquitectura se basa en una CPU que interactúa con el sistema de memoria, recibe datos de un dispositivo de entrada y envía datos a un dispisitivo de salida.
 
 ### Memory
 La memoria de un sistema informático se puede dividir en dos partes: una física y otra lógica. Físicamente, la memoria está compuesta por registros con direcciones únicas que almacenan datos e instrucciones. Lógicamente, la memoria se divide en áreas dedicadas al almacenamiento de datos y de instrucciones de programas. Estas áreas se pueden gestionar juntas o separadas, dependiendo de la arquitectura del sistema. La memoria RAM permite acceder a cualquier registro de manera rápida y sin importar su ubicación en la memoria. La memoria de datos almacena variables y objetos mientras que la memoria de instrucciones guarda las instrucciones de los programas. Antes de ejecutar un programa, su código se carga en la memoria de instrucciones desde un dispositivo de almacenamiento externo como un disco.
-<img width="600" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fjimmywongiot.com%2F2021%2F05%2F20%2Fhow-to-specify-the-memory-section-on-the-zephyr-rtos-project%2F&psig=AOvVaw3gFycdATPWzAizX8dVqJwq&ust=1710533634791000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJCvob7I9IQDFQAAAAAdAAAAABB_">  
+![image](https://github.com/skipword/Navi/assets/159461539/7aa65ce7-f19d-4c4e-a090-5cd8096f9d16)# Proyecto 5
+ 
 
 
 ### CPU
