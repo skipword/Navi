@@ -7,6 +7,7 @@ En este proyecto consolidaremos todos los elementos desarrollados en prácticas 
 
 ### Computer
 Implementa una computadora completa con una memoria ROM de 32K palabras, una unidad central de procesamiento (CPU) y una memoria principal. La entrada de reset se utiliza para reiniciar la computadora. La ROM32K es una memoria de solo lectura que almacena las instrucciones del programa y proporciona la instrucción correspondiente a la dirección especificada por el contador de programa. El CPU ejecuta instrucciones y controla el flujo de datos y operaciones. La memoria principal almacena y recupera datos según la dirección proporcionada.
+
 Una implementación específica del sistema "Computer" son "ComputerMax" y "ComputerAdd", "ComputerRect"
 ## ¿Qué diferencia ven entre arquitectura computacional, arquitectura de software y arquitectura del sistema? 
 
