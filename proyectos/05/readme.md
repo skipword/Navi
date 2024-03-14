@@ -3,7 +3,7 @@ En este proyecto consolidaremos todos los elementos desarrollados en prácticas 
 
 ### Memory
 La memoria de un sistema informático se puede dividir en dos partes: una física y otra lógica. Físicamente, la memoria está compuesta por registros con direcciones únicas que almacenan datos e instrucciones. Lógicamente, la memoria se divide en áreas dedicadas al almacenamiento de datos y de instrucciones de programas. Estas áreas se pueden gestionar juntas o separadas, dependiendo de la arquitectura del sistema. La memoria RAM permite acceder a cualquier registro de manera rápida y sin importar su ubicación en la memoria. La memoria de datos almacena variables y objetos mientras que la memoria de instrucciones guarda las instrucciones de los programas. Antes de ejecutar un programa, su código se carga en la memoria de instrucciones desde un dispositivo de almacenamiento externo como un disco.
-![image](https://github.com/skipword/Navi/assets/159461539/7aa65ce7-f19d-4c4e-a090-5cd8096f9d16)# Proyecto 5
+![image](https://github.com/skipword/Navi/assets/159461539/7aa65ce7-f19d-4c4e-a090-5cd8096f9d16)
  
 
 
