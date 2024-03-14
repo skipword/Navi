@@ -35,11 +35,12 @@ Computadora especializada en operaciones de suma de números, ya sean enteros o 
 Computadora optimizada para realizar cálculos relacionados con rectángulos, como área, perímetro, coordenadas y intersecciones.
 
 ## ¿Por qué el lenguaje de máquina es importante para definir la arquitectura computacional?
-Es importante en la arquitectura ya que el lenguaje maquina permite definir las instrucciones básicas entregadas a la CPU y que esta misma puede ejecutar, algunas de las instrucciones pueden ser, cargar datos desde la memoria, realizar operaciones aritméticas y mover datos entre registros y memoria
+Es importante en la arquitectura computaciones ya que el lenguaje maquina permite definir las instrucciones básicas entregadas a la CPU y que esta misma puede ejecutar, algunas de las instrucciones pueden ser, cargar datos desde la memoria, realizar operaciones aritméticas y mover datos entre registros y memoria
 
 
 ## ¿Qué diferencia ven entre arquitectura computacional, arquitectura de software y arquitectura del sistema? 
-
-
+La arquitectura de software hace referencia al diseño de un sistema de software, es decir la representación de alto nivel donde se define como los componentes del sofware interactúan entre sí, cómo se organizan y en que manera cumplen con los requisitos funcionales y no funcionales del sistemas.
+la arquitectura computacional se centra en el diseño y organización de los componentes físicos y lógicos de una computadora o sistema informático. Esto incluye aspectos como la unidad central de procesamiento (CPU), la memoria, los buses de datos, los dispositivos de entrada/salida, y la interconexión entre estos componentes.
+La arquitectura del sistema hace referencia a la organización de un sistema informático en su totalidad, considerando tanto aspecto de hardware como de software, abarca también la toma de decisiones en el diseño como puede ser la configuración del hardware hasta la implementación del software que es ejecutado en el sistema.
 ## Referencias
 - https://www.nand2tetris.org/_files/ugd/44046b_b2cad2eea33847869b86c541683551a7.pdf
