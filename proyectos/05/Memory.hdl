@@ -34,3 +34,4 @@ CHIP Memory {
     Keyboard(out=kbout);
     Mux4Way16(a=ramout, b=ramout, c=scrout, d=kbout, sel=address[13..14], out=out);
 }
+//para este caso fue sencillo debido a que solo habia que incorporar RAM16K anteriormente construida, y los chips de screen y keyboard se usan como chips integrados
