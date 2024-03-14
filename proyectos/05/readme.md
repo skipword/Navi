@@ -12,9 +12,19 @@ Una implementación específica del sistema "Computer" son "ComputerMax" y "Comp
 
 ![computer](https://github.com/skipword/Navi/assets/159462338/8fdf73a9-c4c3-4455-bde1-b2d7e28752ec)
 
-
 ### ComputerMax:
 Computadora con un conjunto amplio de instrucciones que incluye operaciones aritmeticas, lógicas y de control de flujo. Puede buscar y mantener el valor maximo de una serie de datos.
+
+![computer2](https://github.com/skipword/Navi/assets/159462338/38ea4dd6-50de-4698-8bc6-57db9442793e)
+
+### ComputerAdd:
+Computadora especializada en operaciones de suma de números, ya sean enteros o en coma flotante.
+
+![computer3](https://github.com/skipword/Navi/assets/159462338/0cbb79a2-9b41-4ee6-8a46-86aa1f19877e)
+
+### ComputerRect:
+Computadora optimizada para realizar cálculos relacionados con rectángulos, como área, perímetro, coordenadas y intersecciones.
+
 
 ## ¿Qué diferencia ven entre arquitectura computacional, arquitectura de software y arquitectura del sistema? 
 
