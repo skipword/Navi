@@ -4,6 +4,11 @@ En este proyecto consolidaremos todos los elementos desarrollados en prácticas 
 ### Memory
 
 ### CPU
+La Unidad Central de Procesamiento (CPU) en la arquitectura de una computadora realiza la funcion de ejecutar las instrucciones de los programas que hemos realizado en las anteriores practicas. Para realizar las tareas la CPU está compuesta por tres componentes principales de hardware, la Unidad Aritmético-Lógica (ya trabajado en proyectos anteriores), un conjuntos de registros y una unidad de control(también trabajado en un proyecto anterior). Se le asignan instrucciones a la CPU con información sobre los cálculos que debe realizar, los registros a los que debe acceder y modificar, y las siguientes instrucciones que debe buscar y ejecutar.  
+<img width="600" src="https://media.geeksforgeeks.org/wp-content/uploads/20230713124824/Components-of-computer-copy.webp">  
+
+Para la plataforma Hack la CPU está diseñada para ejecutar instrucciones de 16 bits, así mismo esta CPU está diseñada para estar conectada a dos módulos de memoria distintos, una memoria de instrucciones y una memoria de datos, para poder leer y escribir los respectivos valores de los datos.
+
 
 ### Computer
 Implementa una computadora completa con una memoria ROM de 32K palabras, una unidad central de procesamiento (CPU) y una memoria principal. La entrada de reset se utiliza para reiniciar la computadora. La ROM32K es una memoria de solo lectura que almacena las instrucciones del programa y proporciona la instrucción correspondiente a la dirección especificada por el contador de programa. El CPU ejecuta instrucciones y controla el flujo de datos y operaciones. La memoria principal almacena y recupera datos según la dirección proporcionada.
