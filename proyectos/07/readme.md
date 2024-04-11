@@ -1,1 +1,2 @@
-# Este laboratorio trata el proyecto 7, relacionado con máquina virtuales y el stack aritmético
+# Proyecto 7
+Wste proyecto está relacionado con máquina virtuales y el stack aritmético
