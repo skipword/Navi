@@ -28,9 +28,14 @@ Así pues, en el presente proyecto se desarrollará un traductor básico de máq
 * Gestión de segmentos de memoria: Debe incluir gestión de diferentes segmentos de memoria, como la memoria local, los argumentos, el segmento estático, etc.
 * Manejo de punteros y direcciones de memoria: Capaz de manipular direcciones de memoria y punteros.
 
+## ¿Cual es la ventaja del contenedor respecto a la máquina virtual? 
+Las máquinas virtuales son una "emulación" de una computadora. Ello lo hace por medio de hipervisores, que crean una capa de abstracción sobre el hardware físico de una computadora y gracias a esto pueden separar las VMs entre sí y asignar procesadores, memoria y almacenamiento entre ellas. Por otro lado, los contenedores no hacen uso de hipervisores, funcionan utilizando la funcionalidad del kernel del sistema operativo subyacente del host; no emulan el hardware. Debido a esta distinción trabajar con contenedores proporciona mucha más flexibilidad y portabilidad; similarmente, como comparten el kernel del host, son más ligeros y más rápidos que las VMs.
+
+
 ## Referencias
 - https://www.maxdemaio.com/blog/vm-stack
 - https://www.nand2tetris.org/project07
 - https://github.com/rose/nand2tetris/blob/master/vm1.py
 - https://www.cs.huji.ac.il/course/2002/nand2tet/docs/ch_7_vm_I.pdf
 - https://www.csie.ntu.edu.tw/~cyy/courses/introCS/21fall/lectures/handouts/lec11_VMI.pdf
+- https://www.ibm.com/blog/containers-vs-vms/
