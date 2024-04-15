@@ -16,3 +16,21 @@ Si quiero asegurar la portabilidad de mi programa a distintas plataformas, debid
 <p align="center"><em>Two-tier compilation</em></p>
 
 Así pues, en el presente proyecto se desarrollará un traductor básico de máquina virtual a lenguaje de ensamblador Hack, centrándonos en la implementación de las operaciones de aritmética de pila y acceso a la memoria del lenguaje de la máquina virtual.
+
+### Arithmetic Stack
+* Estructura de datos de pila (stack): Tiene una estructura de de Last In, First Out (LIFO) para almacenar los valores y resultados de las operaciones.
+* Operaciones de la pila: Se deben poder realizar operaciones básicas de una pila, como push (añadir un elemento al inicio de la pila) y pop (eliminar y devolver el primer elemento de la pila).
+* Operaciones aritméticas: Presenta funciones para realizar operaciones aritméticas básicas en la pila. Por ejemplo, ;la sumar (add), resta (sub), multiplicación (mult), división (div), etc.
+* Operaciones lógicas: Se implementan operaciones lógicas, como and, or, not, etc; las cuales operan con booleanos (1 o 0).
+
+### Memory access commands
+* Instrucciones de acceso a memoria: Deben haber instrucciones que permitan acceder y manipular la memoria del sistema. Operaciones como push, pop, push constant, pop local, push argument, pop static, push pointer, pop pointer, push temp, pop temp, etc
+* Gestión de segmentos de memoria: Debe incluir gestión de diferentes segmentos de memoria, como la memoria local, los argumentos, el segmento estático, etc.
+* Manejo de punteros y direcciones de memoria: Capaz de manipular direcciones de memoria y punteros.
+
+## Referencias
+- https://www.maxdemaio.com/blog/vm-stack
+- https://www.nand2tetris.org/project07
+- https://github.com/rose/nand2tetris/blob/master/vm1.py
+- https://www.cs.huji.ac.il/course/2002/nand2tet/docs/ch_7_vm_I.pdf
+- https://www.csie.ntu.edu.tw/~cyy/courses/introCS/21fall/lectures/handouts/lec11_VMI.pdf
