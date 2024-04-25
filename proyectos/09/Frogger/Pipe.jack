@@ -1,0 +1,104 @@
+
+class Pipe {
+   static int xVel;
+
+   //
+   field int xPos;
+   field int yPos;
+   field int tick; // internal clock
+   field int width;
+   field int height;
+
+   // setup the global pipe options
+   function void init(int ixVel, int iyGap) {
+      let xVel = ixVel;
+      return;
+   }
+
+   constructor Pipe new(int x, int y) {
+      do reset(x, y);
+      return this;
+   }
+
+   method void dispose() {
+      do Memory.deAlloc(this);
+      return;
+   }
+
+   method void draw() {
+   // Draw next frame
+      do Screen.setColor(true);
+      
+      //bottom cars
+      do Screen.drawRectangle(Math.min(Math.max(xPos-2,0),511), yPos+0, Math.min(Math.max(xPos+44,0),511), yPos+1);  // top side
+      do Screen.drawRectangle(Math.min(Math.max(xPos-2,0),511), yPos+34, Math.min(Math.max(xPos+44,0),511), yPos+35);  // bottom side
+      do Screen.drawRectangle(Math.min(Math.max(xPos-2,0),511), yPos+0, Math.min(Math.max(xPos-1,0),511), yPos+34);   // left side
+      do Screen.drawRectangle(Math.min(Math.max(xPos+44,0),511), yPos+0, Math.min(Math.max(xPos+45,0),511), yPos+35); // right side
+      do Screen.drawRectangle(Math.min(Math.max(xPos-15,0),511), yPos+4, Math.min(Math.max(xPos-2,0),511), yPos+5);  //cabezitatop
+      do Screen.drawRectangle(Math.min(Math.max(xPos-15,0),511), yPos+31, Math.min(Math.max(xPos-2,0),511), yPos+32);  //cabezitabot
+      do Screen.drawRectangle(Math.min(Math.max(xPos-15,0),511), yPos+4, Math.min(Math.max(xPos-1,0),511), yPos+32);   //cabezitaleft
+
+      // Draw trailing white shadows to clear previous frame (assuming right-to-left scrolling)
+      do Screen.setColor(false);
+      // bottom
+      do Screen.drawRectangle(Math.min(Math.max(xPos,0),511), yPos+2, Math.min(Math.max(xPos+(1+xVel),0),511), yPos+33);       
+      do Screen.drawRectangle(Math.min(Math.max(xPos+46,0),511), yPos+0, Math.min(Math.max(xPos+(48+xVel),0),511), yPos+35);   
+      do Screen.drawRectangle(Math.min(Math.max(xPos+2,0),511), yPos+36, Math.min(Math.max(xPos+(4+xVel),0),511), 255);         
+      do Screen.drawRectangle(Math.min(Math.max(xPos+44,0),511), yPos+36, Math.min(Math.max(xPos+(46+xVel),0),511), 255);
+
+      return;
+   }
+
+   method void tick() {
+      let tick = tick + 1; 
+      // skip every 5th tick (overall slow down a bit)
+      if (tick = 5) {
+         let tick = 0;
+      } else {
+         let xPos = xPos - xVel;
+         // out of bounds (left)
+         if (xPos < (-50)) {
+            let xPos = 514;
+            let yPos = LCGRandom.randRange(80,194);
+         } 
+         // far out of bounds (right)
+         if (xPos > 614) {
+            let yPos = LCGRandom.randRange(80,194);
+         }
+      }
+      return;
+   }
+
+   method int is_player_inside_me(int x, int y, int w, int h) {
+    // Verificar si las coordenadas x e y del frog están dentro de las coordenadas x e y del car
+    if (((xPos + 44) > x) & (xPos < (x + w)) & ((yPos + 55) > y) & (yPos < (y + h))) {
+        return 2; // Frog está tocando el car
+    } else {
+        return 1; // Frog no está tocando el car
+    }
+}
+
+
+   method void update() {
+      do tick();
+      do draw();
+      return;
+   }
+
+   method int x() {
+      return xPos;
+   }
+
+   method int y() {
+      return yPos;
+   }
+
+   method void reset(int x, int y) {
+      let xPos = x;
+      let yPos = y;
+      let width = 59;
+      let height = 25;
+      let tick = -1;
+      return;
+   }
+}
