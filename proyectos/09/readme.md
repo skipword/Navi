@@ -33,6 +33,11 @@ Al proponer un nuevo lenguaje de programación, especialmente considerando la ar
 
 5. **Comunidad y Soporte:** Es importante que el nuevo lenguaje tenga una comunidad activa de desarrolladores y un ecosistema sólido de herramientas y bibliotecas para facilitar su adopción y evolución continua.
 
+## Juego Sencillo de una Rana Pasando la Calle
+
+Como ejemplo práctico, se intentó implementar un juego sencillo. En este juego, el jugador controla una rana que debe cruzar una calle llena de carros que se mueven de derecha a izquierda. El objetivo es evitar ser golpeado por los carros y avanzar hacía el frente de manera segura.
+
+Este juego proporciona un caso de estudio interesante para demostrar las capacidades del lenguaje en el desarrollo de aplicaciones interactivas y de entretenimiento.
 
 
 # Referencias
