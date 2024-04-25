@@ -1,0 +1,168 @@
+
+class Game {
+   // game speed (throttling)
+   // objects
+   field Player player;
+   field Pipe pipe1;
+   field Pipe pipe2;
+   field Pipe pipe3;
+   field int score;
+   // internal states
+   field char key;      
+   field char last_key;
+   field boolean first_jump;
+   field boolean exit;
+   field boolean reset;
+   field boolean quit;
+   field int pipe_interaction;
+   // profiling
+   field int frames1;
+   field Array info;
+
+   constructor Game new(int d) {
+      // initialize (allocate) objects
+      let player = Player.new(15, 200);
+      do Pipe.init(2, 50);
+      let pipe1 = Pipe.new(20, 128);
+      let pipe2 = Pipe.new(100, 0);
+      let pipe3 = Pipe.new(164, 50);
+      do Screen.drawRectangle(0, 238, 511, 240);
+	    do Output.moveCursor(22,0);
+      let info = Array.new(6);
+      let info[0] = "tiempo:";
+      let info[1] = " (";
+      let info[2] = "ms)";
+      let info[3] = "  ";
+      let info[4] = "Usa espacio para mover, logra el menor tiempo";
+      let info[5] = "                                             ";
+      return this;
+   }
+
+   method void dispose() {
+      // dispose of (deallocate) objects
+      do player.dispose();
+      do pipe1.dispose();
+      do pipe2.dispose();
+      do pipe3.dispose();
+      do score.dispose();
+      do info.dispose();
+      do Memory.deAlloc(this);
+      return;
+   }
+
+
+   // handle game logic (keyboard input)
+   method void handle_input() {
+      let key = Keyboard.keyPressed();
+      if ((key = 32) & (~(last_key=32))) { // space
+         do player.jump();
+         if (first_jump) {
+            // first jump (spacebar click) starts the game
+            let first_jump = false;
+            // replace title and delete instruction messages
+            do LCGRandom.setSeed(frames1);
+            do Output.moveCursor(22,0);
+            do Output.printString(info[5]);
+            do Output.moveCursor(21,0);
+            do Output.printString(info[5]);
+         }
+      }
+      //
+      let last_key = key;
+      return;
+   }
+
+   // handler for interactions
+   method void handle_pipe(int pipe_interaction) {
+      if (pipe_interaction=2) { // Collision
+         let exit = true;
+      }
+      return;
+   }
+
+   // update all active objects every frame
+   method void refresh() {
+      // update player animation
+      do player.update();  
+      // update the game sprites if started
+      if ((~first_jump)) { 
+         // update pipes (they are moved every frame)
+         do pipe1.update();
+         do pipe2.update();
+         do pipe3.update();
+         // redraw score counter (in case it is behind pipes)
+         // handle player-pipe colision (everyone moves/updates every frame)
+         do handle_pipe(pipe1.is_player_inside_me(player.x(),player.y(),player.width(),player.height()));
+         do handle_pipe(pipe2.is_player_inside_me(player.x(),player.y(),player.width(),player.height()));
+         do handle_pipe(pipe3.is_player_inside_me(player.x(),player.y(),player.width(),player.height()));
+      }
+
+      // Check if the player has reached the top corner
+      if (player.y() < 10) {
+         do Output.moveCursor(10,27);
+	        do Output.printString("Finished!");
+         do player.dispose();
+         do pipe1.dispose();
+         do pipe2.dispose();
+         do pipe3.dispose();
+      }
+      return;
+   }
+
+   // "clock (delay)" printer (profiling tool)
+   method void render_vitals() {
+         let frames1 = frames1 + 1;
+         if (frames1 < 0) { 
+            let frames1 = 0;
+            if (first_jump) {do Output.moveCursor(21,0);} 
+            else {do Output.moveCursor(22,0);}
+            do Output.printString(info[5]);
+         }
+         do Output.moveCursor(22,0);
+         if (first_jump) {
+            do Output.printString(info[4]);
+            do Output.moveCursor(21,0);
+         }
+         do Output.printString(info[0]);
+         do Output.printInt(frames1);
+         do Output.printString(info[1]);
+         do Output.printString(info[2]);
+         do Output.printString(info[3]);
+      return;
+   }
+
+   // the main game control
+   method boolean run() {
+      // init all variables
+      let key = 0;
+      let last_key = 0;
+      let first_jump = true;
+      let exit = false;
+      let reset = false;
+      let quit = false;
+      let frames1 = 0;
+
+      // enter the play loop
+      while (~exit) {
+         // game logic and render
+         do handle_input();
+         do refresh();
+         // handle profiling, clock and delays
+         do render_vitals();
+      }
+      if ((~quit)) { // write "Game Over" if allowed to restart (not quitting)
+         do SpriteManager.draw_title_gameover(10+(32*100));
+      }  
+      return true;
+   }
+
+   // recycle already allocated objects upon restart
+   method void reset() {
+      do Screen.clearScreen();
+      do player.reset(15, 200);
+      do pipe1.reset(20, 128);
+      do pipe2.reset(100, 0);
+      do pipe3.reset(200, 50);
+      return;
+   }
+}
