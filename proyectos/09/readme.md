@@ -2,7 +2,9 @@
 
 En este proyecto, nos sumergiremos en Jack, un lenguaje de programación de alto nivel similar a Java. Antes de construir un compilador para Jack en los próximos proyectos, exploraremos su sintaxis y funcionalidades implementando una aplicación, como un juego simple, en Jack. Además, nos familiarizaremos con Jack OS, el sistema operativo necesario para ejecutar programas en Jack. Con el paquete de software Nand2tetris, tenemos acceso a dos implementaciones de Jack OS, las cuales exploraremos para avanzar en nuestro proyecto.
 
-<img width="300" src="https://www.enter.co/wp-content/uploads/2015/07/tetris1-768x432.jpg">
+<p align="center">
+  <img width="460" height="300" src="https://www.enter.co/wp-content/uploads/2015/07/tetris1-768x432.jpg">
+</p>
 
 ### Desarrolle más el concepto de lenguaje de alto nivel, teniendo en cuenta la diferencia entre lenguajes de programación propiamente dichos e interpretadores.
 
