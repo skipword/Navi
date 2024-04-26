@@ -15,3 +15,4 @@ En conclusión, la principal limitante que encontramos es que la implementación
 
 ## Referencias
 https://www.nand2tetris.org/project06
+https://www.coursera.org/learn/build-a-computer/home/module/6
