@@ -14,3 +14,4 @@ El lenguaje ensamblador es un lenguaje de programación que se usa en los microp
 En conclusión, la principal limitante que encontramos es que la implementación, el uso y su aprendizaje, demandan de mucho tiempo comparado con lenguajes de alto nivel, el lenguaje ensamblador puede generar un alto costo si se utiliza.
 
 ## Referencias
+https://www.nand2tetris.org/project06
